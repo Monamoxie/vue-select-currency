@@ -21,11 +21,9 @@ In component, use as
 ```
 
 ### Props Data
-| ### Props | ### Type | ### Required |
+| Props | Type | Required |
 | classAttrib | String | optional |
-|-------------|--------|----------|
 | preSelected | String | optional |
-|-------------|--------|----------|
 | displayType | String | optional 'long' or 'short' |
 
 ### Props Usage Example

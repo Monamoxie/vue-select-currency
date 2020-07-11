@@ -1,4 +1,4 @@
-![Logo](assets/logo.png)
+<p align="center"><img src="assets/logo.png"></p>
 
 # vueselect-currency
 Easy to use and highly customizable

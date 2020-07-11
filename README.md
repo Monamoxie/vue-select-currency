@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/logo.png"></p>
 
-# vueselect-currency
-Easy to use and highly customizable
+# vue-select-currency
+An easy to use and highly customizable select plugin with a list of the currencies of over 150 nations in the world.  
 
 ## Package installation
 ```

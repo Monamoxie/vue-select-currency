@@ -25,11 +25,14 @@ In component, use as
 |-------------|--------|----------|
 | classAttrib | String | optional |
 | preSelected | String | optional |
-| displayType | String | optional 'long' or 'short' |
+| displayType | String | optional ['long', 'short'] |
 
 ### Props Usage Example
 To customize using props
 ```
 <VueSelectCurrency :classAttrib="'form-control extra-class1 extra-class2'" :preSelected="'Nigerian Naira'" :displayType="'long'"></VueSelectCurrency>
 ```
+
+### Latest Version
+v 0.1.0
  

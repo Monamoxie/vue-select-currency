@@ -1,4 +1,4 @@
-# vueselect-currency
+# vue-select-currency
 Easy to use and highly customizable
 
 ## Package installation

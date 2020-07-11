@@ -1,24 +1,37 @@
-# vue-select-currency
+# vueselect-currency
+Easy to use and highly customizable
 
-## Project setup
+## Package installation
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install --save vue-select-currency
 ```
 
-### Compiles and minifies for production
+### Package set up
+* Import package into root file (main js)
+  
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+import VueSelectCurrency from 'vue-select-currency'
+Vue.use(VueSelectCurrency)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Usage 
+In component, use as
+```
+<VueSelectCurrency></VueSelectCurrency>
+```
+
+### Props Data
+| ##### Props | ##### Type | ##### Required |
+|-------------|--------|----------|
+| classAttrib | String | optional |
+|-------------|--------|----------|
+| preSelected | String | optional |
+|-------------|--------|----------|
+| displayType | String | optional 'long' or 'short' |
+
+### Props Usage Example
+To customize using props
+```
+<VueSelectCurrency :classAttrib="'form-control extra-class1 extra-class2'" :preSelected="'Nigerian Naira'" :displayType="'long'"></VueSelectCurrency>
+```
+ 

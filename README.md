@@ -9,8 +9,7 @@ npm install --save vue-select-currency
 ```
 
 ### Package set up
-* Import package into root file (main js)
-  
+* Import package into root file
 ```
 import VueSelectCurrency from 'vue-select-currency'
 Vue.use(VueSelectCurrency)

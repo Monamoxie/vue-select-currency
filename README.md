@@ -35,5 +35,5 @@ To customize using props
 ```
 
 ### Latest Version
-v 0.1.0
+v 0.1.1
  
